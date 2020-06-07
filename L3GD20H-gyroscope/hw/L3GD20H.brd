@@ -3,7 +3,7 @@
 <eagle version="9.0.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -112,6 +112,7 @@ up</text>
 <dimension x1="4" y1="4" x2="4" y2="0" x3="-8.4" y3="2" textsize="1.778" layer="37"/>
 <dimension x1="16" y1="36" x2="16" y2="50" x3="37.2" y3="43" textsize="1.778" layer="37"/>
 <dimension x1="16" y1="28" x2="16" y2="50" x3="42.8" y3="39" textsize="1.778" layer="37"/>
+<text x="10" y="0.8" size="0.8128" layer="25" font="vector" ratio="17" distance="30">L3GD20H-0.1R</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2598,11 +2599,11 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="1mil"/>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.6mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
